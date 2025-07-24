@@ -1,6 +1,9 @@
-from BSTNode import BSTnode
-import math
-# Your BST class (as given)
+class BSTnode:
+    def __init__(self,data):
+        self.data=data
+        self.right=None
+        self.left=None
+
 class BST:
     def __init__(self):
         self.root = None
